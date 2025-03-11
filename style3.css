@@ -1,0 +1,182 @@
+*{
+    margin: 20px;
+    padding: 10px;
+    background-image:linear-gradient(rgba(4,930,0.7)),(rgba(4,930,0.7)),
+url(mito/driver.jpg);
+background-color:rgb(168, 202, 167);
+}
+.title{ color:rgb(16, 124, 61);
+    font-family:fantasy;
+ font-size:50px;
+ font-weight: bolder;
+}
+.TITPA{ 
+    font-weight: bold;
+    color: rgb(99, 192, 71);
+    font-family: sans-serif;
+}
+.bind-tit{
+ padding: 0px;
+}
+h2{
+     color:rgb(43, 131, 80);
+    font-family:serif;
+}
+.nav-link{
+    flex: 1;
+    text-align: right;
+}
+nav-link UL LI{
+    list-style: none;
+    display: inline;
+    padding: 8px 12PX;
+    position: relative;
+}
+.nav-link UL LI a{
+color: rgb(8, 65, 25);
+ text-decoration: none;
+ font-size: 13px;
+ display: inline;
+ list-style: none;}
+/*font-family: 'poppins',sans-serif;
+display: inline;
+list-style: none;
+min-height: 100vh;
+width:0%;
+background-position: center;
+text-decoration: none;
+color: rgb(53, 12, 235);
+font-size: 13px;}*/
+.nav-link UL LI { list-style: none;
+display: inline-block;
+padding: 8px 12px;
+position:relative;}
+/*
+nav-link{
+    flex: 1;
+    text-align: right;
+}*/
+
+
+.image-text{ 
+    position: absolute;
+    padding: 10px 20px;
+    color: rgb(25, 201, 119);
+    font-size: 10px;
+    border-radius: 3px;
+font-family: sans-serif;
+}
+
+h4{
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+ font-weight: 70PX;
+ font-weight: bold;
+ color:#4f9b1f
+
+}
+h6{
+    color: rgb(114, 89, 7);
+    background-color: rgb(158, 109, 109);
+    margin: 10PX;
+    padding: 10PX;
+}
+button{
+    background-color: #5eff00;
+     font-weight: bold;
+     color: white;
+     border-radius: 18px ;
+}
+section.second QUN{
+box-sizing: border-box;
+}
+.links{
+ padding:0% 3% ;
+ align-items: center;
+}
+
+/*.rent{
+
+    height: 40px;
+    width: 40px;
+    position: center;
+        max-width:120px ;
+        flex-wrap: wrap;
+        width: 8PX;
+        height: 7px;
+        display: flex;
+}*/
+.rent{ max-width:1200px ;
+    margin: auto;
+    overflow: auto;
+    background: #ddb590;
+
+}
+.PHOTO{
+    margin: 5PX;
+    border: 1px solid #ccc;
+    float: left;
+    width: 390;
+}
+.PHOTO img{
+    width: 100%;
+    height: auto;
+}
+.image-text{
+    padding: 90px ;
+    text-align:right;
+}
+
+@media (max-width:800px){
+    body { color: rgb(139, 34, 34);
+    
+    }
+   header.nav-link UL LI a{
+         display: block;
+align-items: left;
+   }
+
+.nav-link UL LI a{
+position: 90,20,0,0;
+background:rgb(168, 202, 167);
+height: 0.5vh;
+width: 1px;
+top: 0%; 
+right: 90;
+text-align:right;
+
+
+   }
+   .title ,.nav-link UL LI a{
+    color: rgb(136, 126, 68);
+    
+ }
+ .TITPA{
+    color: rgb(99, 192, 71);
+    font-size: 15px;
+    display: inline-block;
+ }
+
+.rent {
+    padding: 250px;
+
+}
+    .rent img { 
+        display: flex;
+        max-width:1900px ;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 150PX;
+    }
+   section.h4{
+    font-size:large;
+   }
+.icon.fa{ display: block;
+    width : 100%;
+    padding: 20px;}
+    section.footer{
+        font-size: 20px;
+        width: 4px;
+        display: inline;
+ 
+}
+}
